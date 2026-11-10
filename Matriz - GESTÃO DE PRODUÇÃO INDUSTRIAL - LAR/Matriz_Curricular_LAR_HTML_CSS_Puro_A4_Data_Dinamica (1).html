@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Matriz Curricular - Gestão da Produção Industrial - LAR</title>
+    <style>
+      @page {
+        size: A4 portrait;
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        /* margin: 0; */
+        padding: 0;
+        background: #e9e9e9;
+        color: #111;
+        font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+      }
+      .page {
+        position: relative;
+        width: 595.2756pt;
+        height: 841.8898pt;
+        background: #fff;
+        margin: 18px auto;
+        overflow: hidden;
+        break-after: page;
+        page-break-after: always;
+      }
+      .page:last-child {
+        break-after: auto;
+        page-break-after: auto;
+      }
+      .placed-text {
+        position: absolute;
+        white-space: nowrap;
+        line-height: 1;
+        z-index: 2;
+      }
+      .placed-text strong {
+        font-weight: 700;
+      }
+      .logo {
+        position: absolute;
+        left: 54.9878pt;
+        top: 49pt;
+        width: 96pt;
+        height: 18pt;
+        object-fit: fill;
+      }
+      .header-outline {
+        position: absolute;
+        left: 43pt;
+        top: 40pt;
+        width: 510pt;
+        height: 36pt;
+        border: 1pt solid #1a1a1a;
+        pointer-events: none;
+      }
+      .metadata-divider {
+        position: absolute;
+        left: 298pt;
+        top: 94pt;
+        height: 58pt;
+        border-left: 0.5pt solid #888;
+      }
+      .rule {
+        position: absolute;
+        left: 43pt;
+        top: 166pt;
+        width: 510pt;
+        border-top: 2pt solid #1a1a1a;
+      }
+      .footer-rule {
+        position: absolute;
+        left: 43pt;
+        top: 726.6pt;
+        width: 510pt;
+        border-top: 0.5pt solid #888;
+      }
+      .matrix {
+        position: absolute;
+        left: 43pt;
+        width: 510pt;
+        table-layout: fixed;
+        border-collapse: collapse;
+        border: 1pt solid #222;
+        font-size: 7pt;
+        line-height: 8pt;
+      }
+      .matrix th,
+      .matrix td {
+        margin: 0;
+        padding: 0 6pt;
+        border: 0.5pt solid #888;
+        vertical-align: middle;
+      }
+      .matrix .section-title th {
+        text-align: left;
+        background: #808080;
+        color: #111;
+        font-size: 10pt;
+        font-weight: bold;
+        border-bottom: 1pt solid #222;
+      }
+      .matrix .header {
+        background: #999;
+        font-size: 6.5pt;
+        font-weight: bold;
+      }
+      .matrix .header td:first-child {
+        text-align: left;
+        font-weight: bold;
+      }
+      .matrix .header td:not(:first-child) {
+        text-align: center;
+        font-weight: bold;
+      }
+      .matrix .regular {
+        background: #fff;
+      }
+      .matrix .alt {
+        background: #e8e8e8;
+      }
+      .matrix tr:not(.section-title):not(.header):not(.total) td:first-child {
+        font-weight: bold;
+        text-align: left;
+      }
+      .matrix tr:not(.section-title) td:not(:first-child) {
+        text-align: center;
+      }
+      .matrix .total {
+        background: #bfbfbf;
+        font-weight: bold;
+      }
+      .matrix .total td:first-child {
+        text-align: left;
+      }
+      .matrix.indicators .section-title th {
+        height: 22pt;
+      }
+      .matrix.indicators td:first-child {
+        text-align: left;
+        font-weight: bold;
+      }
+      .matrix.indicators td:last-child {
+        text-align: center;
+      }
+      @media print {
+        html,
+        body {
+          width: 210mm;
+          background: white !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+        .page {
+          margin: 0 !important;
+          box-shadow: none !important;
+          break-after: page;
+          page-break-after: always;
+        }
+        .page:last-child {
+          break-after: auto;
+          page-break-after: auto;
+        }
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      @media screen {
+        .page {
+          /* box-shadow: 0 2px 12px rgba(0, 0, 0, 0.16); */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="page page-1">
+      <div
+        class="placed-text"
+        style="left: 180.2pt; top: 47.642pt; font-size: 10pt"
+      >
+        <strong
+          >CENTRO UNIVERSITÁRIO MULTIVERSA DO JAGUARIBE - UNIJAGUARIBE</strong
+        >
+      </div>
+      <div
+        class="placed-text"
+        style="left: 299.024pt; top: 59.867pt; font-size: 11pt"
+      >
+        <strong>MATRIZ CURRICULAR</strong>
+      </div>
+      <div
+        class="placed-text"
+        style="left: 46.988pt; top: 98.794pt; font-size: 8pt"
+      >
+        <strong>Curso:</strong> Gestão da Produção Industrial - LAR (Tecnólogo)
+      </div>
+      <div
+        class="placed-text"
+        style="left: 46.988pt; top: 111.794pt; font-size: 8pt"
+      >
+        <strong>Modalidade:</strong> EAD
+      </div>
+      <div
+        class="placed-text"
+        style="left: 46.988pt; top: 124.794pt; font-size: 8pt"
+      >
+        <strong>Duração:</strong> 6 Semestres / 3 Anos
+      </div>
+      <div
+        class="placed-text"
+        style="left: 46.988pt; top: 137.794pt; font-size: 8pt"
+      >
+        <strong>Emissão:</strong> <span id="data-emissao">29/10/2026</span>
+      </div>
+      <div
+        class="placed-text"
+        style="left: 301.988pt; top: 98.794pt; font-size: 8pt"
+      >
+        <strong>Polo:</strong> Lar Matelândia
+      </div>
+      <div
+        class="placed-text"
+        style="left: 301.988pt; top: 111.794pt; font-size: 8pt"
+      >
+        <strong>Carga Horária Total:</strong> 2400h
+      </div>
+      <div
+        class="placed-text"
+        style="left: 301.988pt; top: 124.794pt; font-size: 8pt"
+      >
+        <strong>Responsável:</strong> Coordenação Acadêmica
+      </div>
+      <div
+        class="placed-text"
+        style="left: 49pt; top: 181.458pt; font-size: 6.5pt"
+      >
+        Total = Carga Horária Total | Presencial = Horas Presenciais | Virtual =
+        Horas a Distância (EAD)
+      </div>
+      <table class="matrix" style="top: 201.8pt" cellspacing="0">
+        <colgroup>
+          <col style="width: 300pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+        </colgroup>
+        <tr class="section-title" style="height: 17pt">
+          <th colspan="4">1° Período</th>
+        </tr>
+        <tr class="header" style="height: 12.8pt">
+          <td>Disciplina</td>
+          <td>Total</td>
+          <td>Presencial</td>
+          <td>Virtual</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td><strong>PRÁTICAS DE VIVÊNCIAS INTERDISCIPLINARES I</strong></td>
+          <td>100</td>
+          <td>50</td>
+          <td>50</td>
+        </tr>
+        <tr class="alt" style="height: 13.4pt">
+          <td>
+            <strong>SISTEMAS PRODUTIVOS E ORGANIZAÇÃO DO TRABALHO</strong>
+          </td>
+          <td>120</td>
+          <td>25</td>
+          <td>95</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td>
+            <strong
+              >GESTÃO DE PESSOAS, INFORMAÇÃO E SEGURANÇA NO TRABALHO</strong
+            >
+          </td>
+          <td>120</td>
+          <td>25</td>
+          <td>95</td>
+        </tr>
+        <tr class="alt" style="height: 13.4pt">
+          <td><strong>EDUCAÇÃO EM DIREITOS HUMANOS</strong></td>
+          <td>50</td>
+          <td>16,6</td>
+          <td>33,4</td>
+        </tr>
+        <tr class="total" style="height: 18.4pt">
+          <td>Total de CH:</td>
+          <td>390</td>
+          <td>116,6</td>
+          <td>273,4</td>
+        </tr>
+      </table>
+      <table class="matrix" style="top: 303.6pt" cellspacing="0">
+        <colgroup>
+          <col style="width: 300pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+        </colgroup>
+        <tr class="section-title" style="height: 17pt">
+          <th colspan="4">2° Período</th>
+        </tr>
+        <tr class="header" style="height: 12.8pt">
+          <td>Disciplina</td>
+          <td>Total</td>
+          <td>Presencial</td>
+          <td>Virtual</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td><strong>PRÁTICAS DE VIVÊNCIAS INTERDISCIPLINARES II</strong></td>
+          <td>100</td>
+          <td>50</td>
+          <td>50</td>
+        </tr>
+        <tr class="alt" style="height: 13.4pt">
+          <td>
+            <strong
+              >ANÁLISE E CONTROLE DA QUALIDADE E METROLOGIA INDUSTRIAL</strong
+            >
+          </td>
+          <td>120</td>
+          <td>25</td>
+          <td>95</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td>
+            <strong>FERRAMENTAS DE QUALIDADE E SOLUÇÃO DE PROBLEMAS</strong>
+          </td>
+          <td>120</td>
+          <td>25</td>
+          <td>95</td>
+        </tr>
+        <tr class="alt" style="height: 21.8pt">
+          <td>
+            <strong
+              >RELAÇÕES ÉTNICO-RACIAIS E HISTÓRIA E CULTURA AFRO-BRASILEIRA E<br />INDÍGENA</strong
+            >
+          </td>
+          <td>50</td>
+          <td>16,6</td>
+          <td>33,4</td>
+        </tr>
+        <tr class="total" style="height: 18.4pt">
+          <td>Total de CH:</td>
+          <td>390</td>
+          <td>116,6</td>
+          <td>273,4</td>
+        </tr>
+      </table>
+      <table class="matrix" style="top: 413.8pt" cellspacing="0">
+        <colgroup>
+          <col style="width: 300pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+        </colgroup>
+        <tr class="section-title" style="height: 17pt">
+          <th colspan="4">3° Período</th>
+        </tr>
+        <tr class="header" style="height: 12.8pt">
+          <td>Disciplina</td>
+          <td>Total</td>
+          <td>Presencial</td>
+          <td>Virtual</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td><strong>PRÁTICAS DE VIVÊNCIAS INTERDISCIPLINARES III</strong></td>
+          <td>100</td>
+          <td>50</td>
+          <td>50</td>
+        </tr>
+        <tr class="alt" style="height: 13.4pt">
+          <td><strong>PPCP E CADEIA DE SUPRIMENTOS</strong></td>
+          <td>120</td>
+          <td>25</td>
+          <td>95</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td>
+            <strong>PLANEJAMENTO LOGÍSTICO E OTIMIZAÇÃO OPERACIONAL</strong>
+          </td>
+          <td>120</td>
+          <td>25</td>
+          <td>95</td>
+        </tr>
+        <tr class="alt" style="height: 13.4pt">
+          <td><strong>EDUCAÇÃO AMBIENTAL</strong></td>
+          <td>50</td>
+          <td>16,6</td>
+          <td>33,4</td>
+        </tr>
+        <tr class="total" style="height: 18.4pt">
+          <td>Total de CH:</td>
+          <td>390</td>
+          <td>116,6</td>
+          <td>273,4</td>
+        </tr>
+      </table>
+      <table class="matrix" style="top: 515.6pt" cellspacing="0">
+        <colgroup>
+          <col style="width: 300pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+        </colgroup>
+        <tr class="section-title" style="height: 17pt">
+          <th colspan="4">4° Período</th>
+        </tr>
+        <tr class="header" style="height: 12.8pt">
+          <td>Disciplina</td>
+          <td>Total</td>
+          <td>Presencial</td>
+          <td>Virtual</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td><strong>PRÁTICAS DE VIVÊNCIAS INTERDISCIPLINARES IV</strong></td>
+          <td>100</td>
+          <td>50</td>
+          <td>50</td>
+        </tr>
+        <tr class="alt" style="height: 13.4pt">
+          <td><strong>AUTOMAÇÃO INDUSTRIAL E INDÚSTRIA 4.0</strong></td>
+          <td>120</td>
+          <td>25</td>
+          <td>95</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td>
+            <strong>MAPEAMENTO DE PROCESSOS E OTIMIZAÇÃO DA PRODUÇÃO</strong>
+          </td>
+          <td>120</td>
+          <td>25</td>
+          <td>95</td>
+        </tr>
+        <tr class="alt" style="height: 13.4pt">
+          <td><strong>LÍNGUA BRASILEIRA DE SINAIS (LIBRAS)</strong></td>
+          <td>50</td>
+          <td>16,6</td>
+          <td>33,4</td>
+        </tr>
+        <tr class="total" style="height: 18.4pt">
+          <td>Total de CH:</td>
+          <td>390</td>
+          <td>116,6</td>
+          <td>273,4</td>
+        </tr>
+      </table>
+      <table class="matrix" style="top: 617.4pt" cellspacing="0">
+        <colgroup>
+          <col style="width: 300pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+        </colgroup>
+        <tr class="section-title" style="height: 17pt">
+          <th colspan="4">5° Período</th>
+        </tr>
+        <tr class="header" style="height: 12.8pt">
+          <td>Disciplina</td>
+          <td>Total</td>
+          <td>Presencial</td>
+          <td>Virtual</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td><strong>PRÁTICAS DE VIVÊNCIAS INTERDISCIPLINARES V</strong></td>
+          <td>100</td>
+          <td>50</td>
+          <td>50</td>
+        </tr>
+        <tr class="alt" style="height: 13.4pt">
+          <td><strong>GESTÃO DE MANUTENÇÃO E PROJETOS INDUSTRIAIS</strong></td>
+          <td>120</td>
+          <td>25</td>
+          <td>95</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td>
+            <strong>DESENVOLVIMENTO SUSTENTÁVEL E GESTÃO DE RESÍDUOS</strong>
+          </td>
+          <td>120</td>
+          <td>25</td>
+          <td>95</td>
+        </tr>
+        <tr class="total" style="height: 18.4pt">
+          <td>Total de CH:</td>
+          <td>340</td>
+          <td>100</td>
+          <td>240</td>
+        </tr>
+      </table>
+      <table class="matrix" style="top: 705.8pt" cellspacing="0">
+        <colgroup>
+          <col style="width: 300pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+        </colgroup>
+        <tr class="section-title" style="height: 17pt">
+          <th colspan="4">6° Período</th>
+        </tr>
+        <tr class="header" style="height: 12.8pt">
+          <td>Disciplina</td>
+          <td>Total</td>
+          <td>Presencial</td>
+          <td>Virtual</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td><strong>PRÁTICAS DE VIVÊNCIAS INTERDISCIPLINARES VI</strong></td>
+          <td>100</td>
+          <td>50</td>
+          <td>50</td>
+        </tr>
+        <tr class="alt" style="height: 13.4pt">
+          <td><strong>ENGENHARIA ECONÔMICA E SELEÇÃO DE MATERIAIS</strong></td>
+          <td>120</td>
+          <td>25</td>
+          <td>95</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td>
+            <strong
+              >PROJETO DE FÁBRICA, LAYOUT E INSTALAÇÕES AGROINDUSTRIAIS</strong
+            >
+          </td>
+          <td>120</td>
+          <td>25</td>
+          <td>95</td>
+        </tr>
+        <tr class="total" style="height: 18.4pt">
+          <td>Total de CH:</td>
+          <td>340</td>
+          <td>100</td>
+          <td>240</td>
+        </tr>
+      </table>
+      <img
+        class="logo"
+        alt="UNIJAGUARIBE Multiversa"
+        src="data:image/png;base64,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"
+      />
+      <div class="header-outline"></div>
+      <div class="metadata-divider"></div>
+      <div class="rule"></div>
+    </section>
+    <section class="page page-2">
+      <table class="matrix" style="top: 40pt" cellspacing="0">
+        <colgroup>
+          <col style="width: 300pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+          <col style="width: 70pt" />
+        </colgroup>
+        <tr class="section-title" style="height: 17pt">
+          <th colspan="4">Componentes online</th>
+        </tr>
+        <tr class="header" style="height: 12.8pt">
+          <td>Disciplina</td>
+          <td>Total</td>
+          <td>Presencial</td>
+          <td>Virtual</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td><strong>ATIVIDADES COMPLEMENTARES OBRIGATÓRIAS</strong></td>
+          <td>160</td>
+          <td>0</td>
+          <td>160</td>
+        </tr>
+        <tr class="total" style="height: 18.4pt">
+          <td>Total de CH:</td>
+          <td>160</td>
+          <td>0</td>
+          <td>160</td>
+        </tr>
+      </table>
+      <table class="matrix indicators" style="top: 141.6pt" cellspacing="0">
+        <colgroup>
+          <col style="width: 300pt" />
+          <col style="width: 210pt" />
+        </colgroup>
+        <tr class="section-title" style="height: 22pt">
+          <th colspan="2">Indicadores da Carga Horária do Curso</th>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td><strong>Carga horária total do curso:</strong></td>
+          <td>2400h</td>
+        </tr>
+        <tr class="alt" style="height: 13.4pt">
+          <td><strong>Carga horária presencial:</strong></td>
+          <td>666,40h</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td><strong>Carga horária virtual (EAD):</strong></td>
+          <td>1733,60h</td>
+        </tr>
+        <tr class="alt" style="height: 13.4pt">
+          <td><strong>Carga horária de extensão (EXT):</strong></td>
+          <td>600h</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td><strong>Atividades complementares:</strong></td>
+          <td>160h</td>
+        </tr>
+        <tr class="alt" style="height: 13.4pt">
+          <td><strong>Percentual de presencialidade:</strong></td>
+          <td>27,8%</td>
+        </tr>
+        <tr class="regular" style="height: 13.4pt">
+          <td><strong>Percentual de virtualidade (EAD):</strong></td>
+          <td>72,2%</td>
+        </tr>
+        <tr class="alt" style="height: 13.4pt">
+          <td><strong>Percentual de extensão (EXT):</strong></td>
+          <td>25,0%</td>
+        </tr>
+      </table>
+      <div
+        class="placed-text"
+        style="left: 190.333pt; top: 289.258pt; font-size: 6.5pt"
+      >
+        Documento gerado pelo Sistema Acadêmico UNIJAGUARIBE / Multiversa.
+      </div>
+      <div class="footer-rule" style="top: 281pt"></div>
+    </section>
+    <script>
+      (function () {
+        var d = new Date();
+        var dois = function (n) {
+          return (n < 10 ? "0" : "") + n;
+        };
+        document.getElementById("data-emissao").textContent =
+          dois(d.getDate()) +
+          "/" +
+          dois(d.getMonth() + 1) +
+          "/" +
+          d.getFullYear();
+      })();
+    </script>
+  </body>
+</html>
